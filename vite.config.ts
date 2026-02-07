@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
     // GitHub Pages deployment - outputs to /docs folder
-    base: './',
+    base: '/wichitaphotographer/',
     build: {
       outDir: 'docs',
       emptyOutDir: true,
