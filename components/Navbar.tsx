@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <a href="#home" className="group relative z-50 transition-transform duration-300 hover:scale-[1.03]">
             <img
-              src="/logo-transparent.png"
+              src="./logo-transparent.png"
               alt="Wichita Photographer"
               className={`transition-all duration-500 object-contain brightness-0 invert ${scrolled ? 'w-28 md:w-36 max-h-9' : 'w-56 md:w-72 max-h-20'}`}
             />
@@ -79,7 +79,7 @@ const Navbar: React.FC = () => {
       >
         <div className="flex flex-col items-center mb-8">
           <img
-            src="/logo-transparent.png"
+            src="./logo-transparent.png"
             alt="Wichita Photographer"
             className="h-20 object-contain"
           />

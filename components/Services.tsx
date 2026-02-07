@@ -6,7 +6,7 @@ const Services: React.FC = () => {
     {
       title: "Weddings",
       description: "Comprehensive coverage of your special day. We capture every emotional moment, from the nervous anticipation to the joyous celebration, preserving your love story for generations.",
-      image: "/wedding.jpg",
+      image: "./wedding.jpg",
       features: [
         "Full Day Coverage",
         "Two Photographers",
@@ -18,7 +18,7 @@ const Services: React.FC = () => {
     {
       title: "Engagements",
       description: "Celebrate your YES moment with a relaxed, fun session. These photos are perfect for save-the-dates and getting comfortable in front of our cameras before the big day.",
-      image: "/engagement.jpg",
+      image: "./engagement.jpg",
       features: [
         "1-2 Hour Session",
         "Multiple Locations",
@@ -30,7 +30,7 @@ const Services: React.FC = () => {
     {
       title: "Beyond the Aisle",
       description: "Not just weddings — we capture life's other big moments too. From senior portraits that celebrate your graduate's personality to action-packed sports photography and stunning outdoor sessions.",
-      image: "/lifestyle.jpg",
+      image: "./lifestyle.jpg",
       features: [
         "Senior Portraits",
         "Sports & Action Shots",
@@ -77,7 +77,7 @@ const Services: React.FC = () => {
         <div className="mt-20 flex flex-col md:flex-row items-center bg-white rounded-2xl overflow-hidden shadow-lg border border-theme-100 max-w-4xl mx-auto">
           <div className="w-full md:w-2/5 h-[280px]">
             <img
-              src="/aronashly.png"
+              src="./aronashly.png"
               alt="Aron and Ashly"
               className="w-full h-full object-cover object-top"
             />

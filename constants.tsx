@@ -102,27 +102,27 @@ export const PACKAGES: PricingPackage[] = [
 
 export const GALLERY_IMAGES: GalleryImage[] = [
   // Wedding Photos
-  { id: 'w1', url: '/portfolio/weddings/37823716_1791410360946183_4406294325781069824_n.jpg', alt: 'Wedding Ceremony', category: 'wedding', span: 'row-span-2' },
-  { id: 'w2', url: '/portfolio/weddings/509419683_10025064550914015_3962554335892343388_n.jpg', alt: 'Bride & Groom Portrait', category: 'wedding' },
-  { id: 'w3', url: '/portfolio/weddings/509602394_10025064827580654_627120726932645715_n.jpg', alt: 'Wedding Day Moment', category: 'wedding' },
-  { id: 'w4', url: '/portfolio/weddings/509608706_10025064704247333_4889099147569891184_n.jpg', alt: 'Couple Photo', category: 'wedding' },
-  { id: 'w5', url: '/portfolio/weddings/510333021_10047392025347934_6122791691812826445_n.jpg', alt: 'Wedding Celebration', category: 'wedding', span: 'col-span-2' },
-  { id: 'w6', url: '/portfolio/weddings/510632961_10048093791944424_1485840815238820771_n.jpg', alt: 'Reception Moment', category: 'wedding' },
-  { id: 'w7', url: '/portfolio/weddings/510786199_10025064707580666_5151618660150088201_n.jpg', alt: 'Wedding Details', category: 'wedding' },
-  { id: 'w8', url: '/portfolio/weddings/511772104_10047392068681263_9127509740328735450_n.jpg', alt: 'Wedding Party', category: 'wedding', span: 'row-span-2' },
-  { id: 'w9', url: '/portfolio/weddings/512886992_10048261921927611_5626538798448746241_n.jpg', alt: 'Special Wedding Moment', category: 'wedding' },
+  { id: 'w1', url: './portfolio/weddings/37823716_1791410360946183_4406294325781069824_n.jpg', alt: 'Wedding Ceremony', category: 'wedding', span: 'row-span-2' },
+  { id: 'w2', url: './portfolio/weddings/509419683_10025064550914015_3962554335892343388_n.jpg', alt: 'Bride & Groom Portrait', category: 'wedding' },
+  { id: 'w3', url: './portfolio/weddings/509602394_10025064827580654_627120726932645715_n.jpg', alt: 'Wedding Day Moment', category: 'wedding' },
+  { id: 'w4', url: './portfolio/weddings/509608706_10025064704247333_4889099147569891184_n.jpg', alt: 'Couple Photo', category: 'wedding' },
+  { id: 'w5', url: './portfolio/weddings/510333021_10047392025347934_6122791691812826445_n.jpg', alt: 'Wedding Celebration', category: 'wedding', span: 'col-span-2' },
+  { id: 'w6', url: './portfolio/weddings/510632961_10048093791944424_1485840815238820771_n.jpg', alt: 'Reception Moment', category: 'wedding' },
+  { id: 'w7', url: './portfolio/weddings/510786199_10025064707580666_5151618660150088201_n.jpg', alt: 'Wedding Details', category: 'wedding' },
+  { id: 'w8', url: './portfolio/weddings/511772104_10047392068681263_9127509740328735450_n.jpg', alt: 'Wedding Party', category: 'wedding', span: 'row-span-2' },
+  { id: 'w9', url: './portfolio/weddings/512886992_10048261921927611_5626538798448746241_n.jpg', alt: 'Special Wedding Moment', category: 'wedding' },
 
   // Portraits & Action Photos
-  { id: 'l1', url: '/portfolio/lifestyle/92020538_2878862768867598_4375662043500380160_n.jpg', alt: 'Family Portrait', category: 'portraits', span: 'row-span-2' },
-  { id: 'l2', url: '/portfolio/lifestyle/92208923_2878882922198916_2333139433345253376_n.jpg', alt: 'Lifestyle Session', category: 'portraits' },
-  { id: 'l3', url: '/portfolio/lifestyle/92466027_2878861028867772_4045465468885008384_n.jpg', alt: 'Portrait Photography', category: 'portraits' },
-  { id: 'l4', url: '/portfolio/lifestyle/92692684_2878883105532231_7638504863835357184_n.jpg', alt: 'Natural Light Portrait', category: 'portraits', span: 'col-span-2' },
-  { id: 'l5', url: '/portfolio/lifestyle/93322032_2901035316650343_9042506407059914752_n.jpg', alt: 'Outdoor Session', category: 'portraits' },
-  { id: 'l6', url: '/portfolio/lifestyle/93430280_2901035863316955_5532989407163842560_n.jpg', alt: 'Candid Moment', category: 'portraits' },
-  { id: 'l7', url: '/portfolio/lifestyle/93875340_2901035923316949_6622590170271055872_n.jpg', alt: 'Creative Portrait', category: 'portraits', span: 'row-span-2' },
-  { id: 'l8', url: '/portfolio/lifestyle/93908261_2901035283317013_1454213898507911168_n.jpg', alt: 'Lifestyle Photography', category: 'portraits' },
+  { id: 'l1', url: './portfolio/lifestyle/92020538_2878862768867598_4375662043500380160_n.jpg', alt: 'Family Portrait', category: 'portraits', span: 'row-span-2' },
+  { id: 'l2', url: './portfolio/lifestyle/92208923_2878882922198916_2333139433345253376_n.jpg', alt: 'Lifestyle Session', category: 'portraits' },
+  { id: 'l3', url: './portfolio/lifestyle/92466027_2878861028867772_4045465468885008384_n.jpg', alt: 'Portrait Photography', category: 'portraits' },
+  { id: 'l4', url: './portfolio/lifestyle/92692684_2878883105532231_7638504863835357184_n.jpg', alt: 'Natural Light Portrait', category: 'portraits', span: 'col-span-2' },
+  { id: 'l5', url: './portfolio/lifestyle/93322032_2901035316650343_9042506407059914752_n.jpg', alt: 'Outdoor Session', category: 'portraits' },
+  { id: 'l6', url: './portfolio/lifestyle/93430280_2901035863316955_5532989407163842560_n.jpg', alt: 'Candid Moment', category: 'portraits' },
+  { id: 'l7', url: './portfolio/lifestyle/93875340_2901035923316949_6622590170271055872_n.jpg', alt: 'Creative Portrait', category: 'portraits', span: 'row-span-2' },
+  { id: 'l8', url: './portfolio/lifestyle/93908261_2901035283317013_1454213898507911168_n.jpg', alt: 'Lifestyle Photography', category: 'portraits' },
 
   // Engagement Photos (using existing)
-  { id: 'e1', url: '/engagement.jpg', alt: 'Engagement Session', category: 'engagement', span: 'row-span-2' },
-  { id: 'e2', url: '/wedding.jpg', alt: 'Romantic Moment', category: 'engagement' },
+  { id: 'e1', url: './engagement.jpg', alt: 'Engagement Session', category: 'engagement', span: 'row-span-2' },
+  { id: 'e2', url: './wedding.jpg', alt: 'Romantic Moment', category: 'engagement' },
 ];
